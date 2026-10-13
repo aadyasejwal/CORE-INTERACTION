@@ -4,12 +4,17 @@
             position:absolute; 
             z-index:1;}
 .large {background-color: rgb(240, 50, 12);
-			width: 400px;
-			height: 500px;
+			width: 250px;
+			height: 400px;
             position:absolute; 
             z-index:2;}
 .medium {background-color: rgb(242, 114, 89);
-			width: 400px;
-			height: 500px;
+			width: 150px;
+			height: 300px;
             position:absolute; 
             z-index:3;}
+.window {background-color: rgb(200, 223, 116);
+			width: 60px;
+			height: 280px;
+            position:absolute; 
+            z-index:4;}
