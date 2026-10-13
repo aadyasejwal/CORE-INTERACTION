@@ -1,69 +1,93 @@
 .background {background-color: rgb(242, 109, 158);
-			width: 400px;
-			height: 500px;
+			width: 450px;
+			height: 700px;
             position:absolute; 
             z-index:1;}
 .large {background-color: rgb(240, 50, 12);
 			width: 250px;
 			height: 400px;
             position:absolute; 
+            top:150px;
+            left: 100px;
             z-index:2;}
 .medium {background-color: rgb(242, 114, 89);
 			width: 150px;
 			height: 300px;
             position:absolute; 
-            z-index:3;}
-.window {background-color: rgb(200, 223, 116);
+            z-index:3;
+            top: 200px;
+            left:150px;}
+.window1 {background-color: rgb(200, 223, 116);
 			width: 60px;
 			height: 280px;
             position:absolute; 
             z-index:4;
-            display: inline-block;}
-.window:nth-of-type(1) {
-			margin-right: 6px;}
-.left_connector {
-			width: 50px;
-			height: 300px;
+            display: inline-block;
+            top: 210px;
+            left:160px; }
+.window2 {background-color: rgb(200, 223, 116);
+			width: 60px;
+			height: 280px;
+            position:absolute; 
+            z-index:4;
+            display: inline-block;
+            top: 210px;
+            left:230px; }
+			
+.left_connecter {
+			width: 45px;
+			height: 500px;
 			background-color: rgb(195, 16, 16);
             position:absolute;
-            z-index: 5;
+            z-index: 6;
+            top: 250px;
+            left:30px;
+
 		}
 .left_connecter_corner {
-			width: 100px;
+			width: 70px;
 			height: 50px;
 			background-color: rgb(195, 16, 16);
             position:absolute;
             z-index: 6;
+            top: 250px;
+            left:30px;
         }
-.right_connector {
-			width: 50px;
-			height: 500px;
-			background-color: rgb(140, 67, 162);
+.right_connecter{
+			width: 55px;
+			height: 700px;
+			background-color: rgb(162, 88, 184);
             position:absolute;
             z-index: 7;
+            left: 403px; 
 }
 .right_connecter_corner {
-			width: 100px;
-			height: 50px;
-			background-color: rgb(140, 67, 162);
+			width: 150px;
+			height: 55px;
+			background-color: rgb(162, 88, 184);
             position:absolute;
-            z-index: 8;}
+            z-index: 8;
+            left: 255px;}
 .right_connecter_corner_down {
-			width: 100px;
-			height: 10px;
-			background-color: rgb(140, 67, 162);
+			width: 55px;
+			height: 100px;
+			background-color: rgb(162, 88, 184);
             position:absolute;
-            z-index: 9;}
+            z-index: 9;
+            top:50px;
+            left:255px; }
 .bottom {
-			width: 400px;
+			width: 450px;
 			height: 80px;
 			background-color: rgb(128, 193, 114);
             position:absolute;
+            top:700px;
             z-index: 10;}
 
 .line {
-			width: 400px;
+			width: 450px;
 			height: 20px;
 			background-color: rgb(237, 9, 85);
             position:absolute;
+            top:730px;
             z-index: 11;}
