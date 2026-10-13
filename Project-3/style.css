@@ -2,7 +2,8 @@
 			width: 450px;
 			height: 700px;
             position:absolute; 
-            z-index:1;}
+            z-index:1;
+        top:10px }
 .large {background-color: rgb(240, 50, 12);
 			width: 250px;
 			height: 400px;
@@ -59,6 +60,7 @@
 			background-color: rgb(162, 88, 184);
             position:absolute;
             z-index: 7;
+            top:10px;
             left: 403px; 
 }
 .right_connecter_corner {
@@ -67,6 +69,7 @@
 			background-color: rgb(162, 88, 184);
             position:absolute;
             z-index: 8;
+            top: 10px;
             left: 255px;}
 .right_connecter_corner_down {
 			width: 55px;
@@ -91,3 +94,4 @@
             position:absolute;
             top:730px;
             z-index: 11;}
+section{top:300px;}
