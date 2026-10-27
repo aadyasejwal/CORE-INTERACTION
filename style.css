@@ -1,8 +1,16 @@
 body { background-color:black; font-family: didot;}
-.head { background-color:bisque; left:0; height: 150px; width:100%; text-align:center; position:absolute;}
-.body{padding-top:170px; display:flex; flex-direction: row; gap:10px; }
+.head { background-color:bisque; left:0; height: 150px; width:100%; text-align:center; position:fixed;top:0%}
+.body{padding-top:170px; display:flex; flex-direction: row; gap:10px; text-align:center;}
+.body :hover{ color: bisque;}
 .text-box1 img { flex:1; height:700px; width:100%; }
 .text-box2 img { flex:2; height:700px; width:100%; }
 .text-box3 img { flex:3; height:700px; width:100%; }
-.body2 {color:bisque; padding-top:10px; display:flex; flex-direction: row; justify-content: space-around;  }
-.body2 :hover{ color: bisque;}
+
+
+@media(max-width:600px) {
+.head { background-color:bisque; left:0; height: 150px; width:100%; text-align:center; position:fixed;top:0%}
+.body{align-items: center;padding-top:170px; display:flex; flex-direction: column; }
+.text-box1 img {flex:1; margin:0.5px 20px ;height:270px; width:450px; }
+.text-box2 img { flex:2; margin:0.5px 20px; height:270px; width:450px; }
+.text-box3 img { flex:3; margin:0.5px 20px; height:270px; width:450px; }
+}
