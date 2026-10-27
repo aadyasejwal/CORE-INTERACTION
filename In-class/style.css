@@ -1,0 +1,6 @@
+section {display:grid; 
+grid-template-columns: repeat(7, 100px);
+grid-auto-rows: minmax(100px,1fr);
+gap:0;}
+div {height:100px; width: 100px; border: 1px black solid;
+aspect-ratio 1/1; }
