@@ -20,20 +20,32 @@
         if (h < 6 ) {
             document.body.style.backgroundImage = "url('night1.jpg')";
             document.body.style.color = 'white';
+            document.body.style.margin = '100vh';
             document.body.style.backgroundRepeat = 'no-repeat';
+            document.body.style.backgroundSize = "cover";
+            document.body.style.backgroundPosition = "center center";
         } else if (h < 11 ) {
             document.body.style.backgroundImage = "url('sunrise1.jpg')";
             document.body.style.color = 'orange';
+            document.body.style.margin = '100vh';
             document.body.style.backgroundRepeat = 'no-repeat';
+            document.body.style.backgroundSize = "cover";
+            document.body.style.backgroundPosition = "center center";
         } else if (h < 16) {
             document.body.style.backgroundImage= "url('day1.jpg')";
             document.body.style.color = 'yellow';
+           document.body.style.margin = '100vh';
             document.body.style.backgroundRepeat = 'no-repeat';
+            document.body.style.backgroundSize = "cover";
+            document.body.style.backgroundPosition = "center center";
         } 
         else if (h < 16.5) {
             document.body.style.backgroundImage= "url('sunset1.jpg')";
             document.body.style.color = 'red';
+            document.body.style.margin = '100vh';
             document.body.style.backgroundRepeat = 'no-repeat';
+            document.body.style.backgroundSize = "cover";
+            document.body.style.backgroundPosition = "center center";
         } else {
             document.body.style.backgroundImage = "url('night1.jpg')";
             document.body.style.color = 'white';
